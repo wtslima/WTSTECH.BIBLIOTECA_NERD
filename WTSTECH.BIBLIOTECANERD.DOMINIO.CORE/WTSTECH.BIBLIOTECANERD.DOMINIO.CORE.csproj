@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="IServicos\" />
+    <Folder Include="IRepositorios\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Validacoes\" />
+    <Folder Include="Servicos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WTSTECH.BIBLIOTECANERD.DOMINIO.SHARED\WTSTECH.BIBLIOTECANERD.DOMINIO.SHARED.csproj" />
+  </ItemGroup>
+
+</Project>
